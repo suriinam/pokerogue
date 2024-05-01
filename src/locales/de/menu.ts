@@ -6,6 +6,8 @@ import { SimpleTranslationEntries } from "#app/plugins/i18n";
  * account interactions, descriptive text, etc.
  */
 export const menu: SimpleTranslationEntries = {
+    "yes": "Yes",
+    "no": "No",
     "cancel": "Abbrechen",
     "continue": "Fortfahren",
     "dailyRun": "Täglicher Run (Beta)",
@@ -35,6 +37,7 @@ export const menu: SimpleTranslationEntries = {
     "boyOrGirl": "Bist du ein Junge oder ein Mädchen?",
     "boy": "Junge",
     "girl": "Mädchen",
+    "confirmStarterSelection": "Begin with these Pokémon?",
     "bossAppeared": "{{bossName}} erscheint.",
     "trainerAppeared": "{{trainerName}}\nmöchte kämpfen!",
     "singleWildAppeared": "Ein wildes {{pokemonName}} erscheint!",
@@ -47,6 +50,11 @@ export const menu: SimpleTranslationEntries = {
     "pokemon": "Pokémon",
     "sendOutPokemon": "Los! {{pokemonName}}!",
     "levelCapUp": "Das Levellimit\nhat sich zu {{levelCap}} erhöht!",
+    "evolving": "What?\n{{pokemonName}} is evolving!",
+    "stoppedEvolving": "{{pokemonName}} stopped evolving.",
+    "pauseEvolutionsQuestion": "Would you like to pause evolutions for {{pokemonName}}?\nEvolutions can be re-enabled from the party screen.",
+    "evolutionsPaused": "Evolutions have been paused for {{pokemonName}}.",
+    "evolutionDone": "Congratulations!\nYour {{pokemonName}} evolved into {{evolvedPokemonName}}!",
     "moveNotImplemented": "{{moveName}} ist noch nicht implementiert und kann nicht ausgewählt werden.",
     "moveDisabled": "{{moveName}} ist deaktiviert!",
     "noPokeballForce": "Eine unsichtbare Kraft\nverhindert die Nutzung von Pokébällen.",

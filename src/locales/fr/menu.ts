@@ -1,6 +1,8 @@
 import { SimpleTranslationEntries } from "#app/plugins/i18n";
 
 export const menu: SimpleTranslationEntries = {
+  "yes": "Oui",
+  "no": "Non",
   "cancel": "Annuler",
   "continue": "Continuer",
   "dailyRun": "Défi du jour (Bêta)",
@@ -30,6 +32,7 @@ export const menu: SimpleTranslationEntries = {
   "boyOrGirl": "Es-tu un garçon ou une fille ?",
   "boy": "Garçon",
   "girl": "Fille",
+  "confirmStarterSelection": "Commencer avec ces Pokémon?",
   "bossAppeared": "Un {{bossName}} apparaît.",
   "trainerAppeared": "Un combat est lancé\npar {{trainerName}} !",
   "singleWildAppeared": "Un {{pokemonName}} sauvage apparaît !",
@@ -56,6 +59,11 @@ export const menu: SimpleTranslationEntries = {
   "learnMoveForgetQuestion": "Quelle capacité doit être oubliée ?",
   "learnMoveForgetSuccess": "{{pokemonName}} oublie comment\nutiliser {{moveName}}.",
   "levelCapUp": "La limite de niveau\na été augmentée à {{levelCap}} !",
+  "evolving": "Hein?\n{{pokemonName}} évolue!",
+  "stoppedEvolving": "{{pokemonName}} a stoppé son évolution.",
+  "pauseEvolutionsQuestion": "Voulez-vous pauser les évolutions pour {{pokemonName}}?\nLes évolutions peuvent être réactivées depuis l'écran d'équipe.",
+  "evolutionsPaused": "Les évolutions ont été mises en pause pour {{pokemonName}}.",
+  "evolutionDone": "Félicitations!\nVotre {{pokemonName}} a évolué en {{evolvedPokemonName}}!",
   "moveNotImplemented": "{{moveName}} n’est pas encore implémenté et ne peut pas être sélectionné.",
   "moveDisabled": "{{moveName}} est sous entrave !",
   "noPokeballForce": "Une force mystérieuse\nempêche l’utilisation des Poké Balls.",

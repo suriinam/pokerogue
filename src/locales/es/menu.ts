@@ -6,6 +6,8 @@ import { SimpleTranslationEntries } from "#app/plugins/i18n";
  * account interactions, descriptive text, etc.
  */
 export const menu: SimpleTranslationEntries = {
+    "yes": "Yes",
+    "no": "No",
     "cancel": "Cancelar",
     "continue": "Continuar",
     "dailyRun": "Reto diario (Beta)",
@@ -19,6 +21,7 @@ export const menu: SimpleTranslationEntries = {
     "boyOrGirl": "¿Eres un chico o una chica?",
     "boy": "Chico",
     "girl": "Chica",
+    "confirmStarterSelection": "Begin with these Pokémon?",
     "bossAppeared": "¡{{bossName}} te corta el paso!",
     "trainerAppeared": "¡{{trainerName}}\nte desafía!",
     "singleWildAppeared": "¡Un {{pokemonName}} salvaje te corta el paso!",
@@ -45,6 +48,11 @@ export const menu: SimpleTranslationEntries = {
     "learnMoveForgetQuestion": "¿Qué movimiento quieres que olvide?",
     "learnMoveForgetSuccess": "{{pokemonName}} ha olvidado cómo utilizar {{moveName}}.",
     "levelCapUp": "¡Se ha incrementado el\nnivel máximo a {{levelCap}}!",
+    "evolving": "What?\n{{pokemonName}} is evolving!",
+    "stoppedEvolving": "{{pokemonName}} stopped evolving.",
+    "pauseEvolutionsQuestion": "Would you like to pause evolutions for {{pokemonName}}?\nEvolutions can be re-enabled from the party screen.",
+    "evolutionsPaused": "Evolutions have been paused for {{pokemonName}}.",
+    "evolutionDone": "Congratulations!\nYour {{pokemonName}} evolved into {{evolvedPokemonName}}!",
     "moveNotImplemented": "{{moveName}} aún no está implementado y no se puede seleccionar.",
     "moveDisabled": "!No puede usar {{moveName}} porque ha sido anulado!",
     "noPokeballForce": "Una fuerza misteriosa\nte impide usar Poké Balls.",
